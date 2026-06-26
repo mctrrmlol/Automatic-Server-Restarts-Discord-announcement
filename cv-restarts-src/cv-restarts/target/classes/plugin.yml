@@ -1,0 +1,21 @@
+name: cv-restarts
+version: '1.0.0'
+main: io.crashvanilla.cvrestarts.CvRestarts
+api-version: '1.21'
+description: Scheduled restart announcements with Discord integration
+authors: [ CrashVanilla ]
+
+commands:
+  startrestart:
+    description: Starts the automatic restart scheduler
+    usage: /startrestart
+    permission: cvrestarts.admin
+  testrestart:
+    description: Tests the restart countdown and Discord message (no actual restart)
+    usage: /testrestart
+    permission: cvrestarts.admin
+
+permissions:
+  cvrestarts.admin:
+    description: Access to restart management commands
+    default: op

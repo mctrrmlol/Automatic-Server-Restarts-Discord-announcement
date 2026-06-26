@@ -1,0 +1,5 @@
+io\crashvanilla\cvrestarts\commands\StartRestartCommand.class
+io\crashvanilla\cvrestarts\scheduler\RestartScheduler.class
+io\crashvanilla\cvrestarts\commands\TestRestartCommand.class
+io\crashvanilla\cvrestarts\CvRestarts.class
+io\crashvanilla\cvrestarts\discord\DiscordBot.class

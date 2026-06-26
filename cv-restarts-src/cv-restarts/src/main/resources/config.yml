@@ -1,0 +1,15 @@
+# cv-restarts configuration
+discord:
+  # Your Discord bot token
+  bot-token: "YOUR_BOT_TOKEN_HERE"
+  # Channel ID to send restart warnings to
+  channel-id: "1516888533015466071"
+
+# Timezone offset in hours from UTC (e.g., -4 for UTC-4)
+timezone-offset: -4
+
+# Restart time in 24h format (HH:mm) in the configured timezone
+restart-time: "20:00"
+
+# Warning time in minutes before restart to send the 10-minute warning
+warning-minutes: 10
