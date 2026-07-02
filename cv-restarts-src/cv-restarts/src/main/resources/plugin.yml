@@ -3,7 +3,7 @@ version: '1.0.0'
 main: io.crashvanilla.cvrestarts.CvRestarts
 api-version: '1.21'
 description: Scheduled restart announcements with Discord integration
-authors: [ CrashVanilla ]
+authors: [ Mctrrm ]
 
 commands:
   startrestart:
